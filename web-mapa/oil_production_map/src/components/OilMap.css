@@ -7,7 +7,7 @@
 }
 
 .popup-title{
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
     font-family:Georgia, 'Times New Roman', Times, serif;
 
@@ -17,7 +17,7 @@
     font-size: 1.6em;
     text-align: center;
     font-family: 'PT Serif', serif;
-    font-weight: 500;
+    font-weight: bold;
     
 }
 
@@ -30,7 +30,7 @@
     background-color: white;
     border: 2px solid black;
     padding: 5px;
-    margin: 20px; 
+    margin: 25px;
     margin-top: 70vh;
     font-size: 18px;
 }
@@ -47,6 +47,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.source-info-legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    margin-bottom: 0px;
+    text-align: end;
+}
+
 @media (max-width: 470px) {
     .sidebar{
         font-size: 14px;
@@ -54,9 +61,17 @@
     .title-info-legend{font-size: 18px;}
   }
 
+  @media (max-width: 360px) {
+    .sidebar{
+        font-size: 12px;
+    }
+    .title-info-legend{font-size: 16px;}
+  }
+
 @media (max-height: 700px) {
     .sidebar{
-        margin-top: 68vh;
+        margin-top: 64vh;
         margin-left: 10px;
+        margin: 15px;
     }
   }

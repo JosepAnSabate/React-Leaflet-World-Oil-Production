@@ -29,6 +29,7 @@ const OilMap = ({ countries }) => {
         <p className='info-legend-conv text-info-legend'>1 Mbb = 1,000,000 barrels</p>
         <p className='text-info-legend'>1 barrel =  119.24 liters</p>
         <p className='bottom-info-legend text-info-legend'>Total World production: <strong>30629 Mbb</strong></p>
+        <p className='source-info-legend'>Source: <a href="https://ourworldindata.org/grapher/oil-production-by-country">OurWorldinData</a></p>
         </div>
         <GeoJSON style={mapStyle} data={countries} onEachFeature={oneEchCountry} />
        
